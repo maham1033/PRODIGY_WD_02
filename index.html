@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Time_Tracker</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    
+    <!-- Header Section -->
+    <header>
+      <div class="logo">
+        <img src="logo.png" width="40" height="40" alt="Logo" />
+        <span class="name">Time-Keeper</span>
+      </div>
+      <ul class="navlist">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Country</a></li>
+        <li><a href="#">Contact</a></li>
+        <li><a href="#">login</a></li>
+      </ul>
+      <div class="button">Sign in</div>
+    </header>
+
+    <!-- Clock Section -->
+    <section>
+      <div class="clock-section">
+        <div class="display">00 : 00 : 00 : 00</div>
+        <ul class="laps"></ul>
+        <div class="buttons">
+          <button id="start" onclick="start()">Start</button>
+          <button id="stop" onclick="stop()">Stop</button>
+          <button id="restartBtn" onclick="restart()">Restart</button>
+          <button id="resetBtn" onclick="reset()">Reset</button>
+          <button id="lap" onclick="lap()">Lap</button>
+          <button id="resetLap" onclick="reset_lap()">Reset Laps</button>
+        </div>
+      </div>
+    </section>
+
+    <script src="script.js"></script>
+  </body>
+</html>
