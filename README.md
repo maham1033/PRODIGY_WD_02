@@ -2,8 +2,8 @@
 # Stopwatch Web Application
 
 Welcome to the README file for  stopwatch web application! This project is built using HTML, CSS, and JavaScript, and it provides a simple and functional stopwatch with various features.
-# Demo
- https://maham1033.github.io/Stopwatch-Web-Application/
+# [Demo]( https://maham1033.github.io/Stopwatch-Web-Application/)
+
  
 ## Features
 
